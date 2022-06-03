@@ -1,11 +1,17 @@
-import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/header/header";
+import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <div className='App'>
-      <header className='font-yellowtail'>HELLO</header>
+    <div>
+      <Header />
+      <div className='px-5 font-tiro'>
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
