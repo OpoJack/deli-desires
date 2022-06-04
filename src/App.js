@@ -15,6 +15,7 @@ function App() {
         <About />
         <Menu />
         <Order />
+        <Contact />
         <Footer />
       </div>
     </div>
