@@ -3,13 +3,20 @@ import React from "react";
 const Order = () => {
   return (
     <div>
-      <h2 className='text-ddGold-500 font-medium mb-2 text-center text-3xl'>
-        Order
-      </h2>
-      <p className='leading-relaxed text-base'>
-        Fingerstache flexitarian street art 8-bit waist co, subway tile poke
-        farm.
-      </p>
+      <div className='content-center mb-2 text-center'>
+        <span
+          className='rounded-lg px-3 py-1               
+                drop-shadow-sm w-1/2 text-center'
+        >
+          <a
+            href='http://deli-desires.smartonlineorder.com/'
+            className='font-yellowtail text-3xl text-yellow-500 hover:text-yellow-400 transition duration-200 hover:scale-105 hover:rounded-lg lg:p-2 md:p-8 sm:p-7 sm:ml-0 w-fill'
+          >
+            <span className='drop-shadow-sm'>{`Order Online`}</span>
+          </a>
+        </span>
+        <p className='leading-relaxed text-base text-center'>⤴7am-3pm⤴</p>
+      </div>
     </div>
   );
 };

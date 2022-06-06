@@ -3,7 +3,7 @@ import React from "react";
 const aboutData = [
   { title: "Sandwiches", description: "Sensational!" },
   { title: "Bialys", description: "Fresh!" },
-  { title: "Coffee", description: "Wake up!" },
+  { title: "Coffee", description: "Hot & Iced!" },
   { title: "Sandwiches", description: "Sensational!" },
   { title: "Sandwiches", description: "Sensational!" },
 ];
@@ -11,9 +11,16 @@ const aboutData = [
 const About = () => {
   return (
     <div>
-      <h2 className='text-ddGold-500 font-medium mb-2 text-center text-2xl'>
-        About us
-      </h2>
+      <div className='content-center mb-2 text-center'>
+        <span
+          className='rounded-lg px-3 py-1               
+                drop-shadow-sm w-1/2 text-center'
+        >
+          <span className='font-yellowtail text-3xl text-yellow-500 hover:text-yellow-400 transition duration-200 hover:scale-105 hover:rounded-lg lg:p-2 md:p-8 sm:p-7 sm:ml-0 w-fill'>
+            <span className='drop-shadow-sm'>{`About us`}</span>
+          </span>
+        </span>
+      </div>
       <div className='relative grid-rows-5'>
         {aboutData.map((item, index) => (
           <div className='grid grid-cols-5 md:grid-cols-3 text-sm' key={index}>

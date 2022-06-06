@@ -5,6 +5,7 @@ import Map from "../components/new/map";
 import Order from "../components/new/order";
 import Menu from "../components/new/menu";
 import SMedia from "../components/new/social-media";
+import Contact from "../components/new/contact";
 
 const navigation = [
   { title: "About", component: About, order: "md:order-1 sm:order-2" },
@@ -12,6 +13,7 @@ const navigation = [
   { title: "Order", component: Order, order: "md:order-2 sm:order-1" },
   { title: "Menu", component: Menu, order: "md:order-4 sm:order-3" },
   { title: "Social Media", component: SMedia, order: "md:order-6 sm:order-5" },
+  { title: "Contact", component: Contact, order: "md:order-5 sm:order-6" },
 ];
 
 const New = () => {
@@ -31,9 +33,9 @@ const New = () => {
             </div>
           ))}
           {/* Dummy block */}
-          <div className='xl:w-1/2 md:w-1/2 p-4 md:order-5 sm:order-6'>
-            <div className='  p-6 rounded-lg'></div>
-          </div>
+          {/* <div className='xl:w-1/2 md:w-1/2 p-2 md:order-5 sm:order-6'>
+            <div className='  p-2 rounded-lg'></div>
+          </div> */}
         </div>
       </div>
     </section>
