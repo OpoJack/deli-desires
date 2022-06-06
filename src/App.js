@@ -5,7 +5,7 @@ import New from "./pages/new";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/deli-desires/"}>
       <Routes>
         <Route path='/' element={<Original />} />
         <Route path='/new' element={<New />} />
