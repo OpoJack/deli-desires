@@ -1,17 +1,16 @@
 import React from "react";
-import dd_header from "../images/dd-header.png";
+import Header from "../components/new/header";
+import About from "../components/new/about";
+import Map from "../components/new/map";
+import Order from "../components/new/order";
+import Menu from "../components/new/menu";
+import SMedia from "../components/new/social-media";
 
 const New = () => {
   return (
     <section className='text-gray-600 '>
-      <div className='container px-5 py-12 mx-auto'>
-        <div className='flex flex-wrap w-full mb-20 flex-col items-center text-center justify-center'>
-          <img
-            alt='Deli Desires Header with wolf'
-            className='lg:w-5/12'
-            src={dd_header}
-          />
-        </div>
+      <div className='container px-5 py-5 mx-auto'>
+        <Header />
         <div className='flex flex-wrap -m-4'>
           <div className='xl:w-1/3 md:w-1/2 p-4'>
             <div className='  p-6 rounded-lg'>
