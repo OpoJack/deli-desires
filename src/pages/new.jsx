@@ -7,11 +7,11 @@ import Menu from "../components/new/menu";
 import SMedia from "../components/new/social-media";
 
 const navigation = [
-  { title: "About", component: About },
-  { title: "Map", component: Map },
-  { title: "Order", component: Order },
-  { title: "Menu", component: Menu },
-  { title: "Social Media", component: SMedia },
+  { title: "About", component: About, order: "md:order-1 sm:order-2" },
+  { title: "Map", component: Map, order: "md:order-3 sm:order-4" },
+  { title: "Order", component: Order, order: "md:order-2 sm:order-1" },
+  { title: "Menu", component: Menu, order: "md:order-4 sm:order-3" },
+  { title: "Social Media", component: SMedia, order: "md:order-6 sm:order-5" },
 ];
 
 const New = () => {
@@ -22,10 +22,10 @@ const New = () => {
         <div className='flex flex-wrap -m-4'>
           {navigation.map((item, index) => (
             <div
-              className='xl:w-1/2 md:w-1/2 p-4 md:order-3 sm:order-4 sm:w-full'
+              className={`xl:w-1/2 md:w-1/2 p-2 sm:w-full ${item.order}`}
               key={index}
             >
-              <div className=' p-6 rounded-lg'>
+              <div className=' p-2 rounded-lg'>
                 <item.component />
               </div>
             </div>
