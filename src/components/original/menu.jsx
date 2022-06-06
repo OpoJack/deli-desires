@@ -4,13 +4,6 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import menu1 from "../../images/dd-menu.png";
 import menu2 from "../../images/dd-menu2.png";
 
-const images = [
-  {
-    url: "https://images.yswcdn.com/-6709878151531560371-ql-90/451/454/aah/chefknivestogo/doi-san-sakai-takayuki-genbu-deba-180mm-4.png",
-  },
-  { url: "../../images/dd-menu2.png" },
-];
-
 const Menu = () => {
   return (
     <section>
@@ -36,8 +29,8 @@ const Menu = () => {
               touchTracking={true}
               disableButtonsControls={true}
             >
-              <img src={menu1} className='sliderimg' />
-              <img src={menu2} className='sliderimg' />
+              <img src={menu1} className='sliderimg' alt='Menu page 1' />
+              <img src={menu2} className='sliderimg' alt='Menu page 2' />
             </AliceCarousel>
           </div>
         </div>

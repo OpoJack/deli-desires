@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import Header from "../components/original/header";
 import About from "../components/original/about";
 import Menu from "../components/original/menu";

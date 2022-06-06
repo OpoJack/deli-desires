@@ -8,7 +8,7 @@ const Header = () => {
         <div className='lg:w-5/6 mx-auto'>
           <div className='rounded-lg overflow-hidden align-top'>
             <img
-              alt='Deli Desires Header image with wolf'
+              alt='Deli Desires Header with wolf'
               className='md:h-full md:w-full'
               src={dd_header}
             />
