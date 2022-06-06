@@ -2,19 +2,17 @@ import React from "react";
 
 const Order = () => {
   return (
-    <section>
-      <div className='container p-3 mx-auto lg:w-1/2 md:w-7/12 my-2 sm:w-10/12 border-b-ddBlue-500 border-b-4 border-dotted'>
-        <div className=' mx-auto '>
-          <div className='rounded-lg overflow-hidden align-top transition text-center xl:text-xl lg:text-lg md:text-base'>
-            <h1 className='xl:text-2xl'>
-              BIALYS - COFFEE - BREAKFAST & LUNCH{" "}
-            </h1>
-            <p>TAKEAWAY ONLY </p>
-            <p> 7am-3pm</p>
-          </div>
-        </div>
+    <div className='xl:w-1/2 md:w-1/2 p-4 md:order-2 sm:order-1'>
+      <div className='  p-6 rounded-lg'>
+        <h2 className='text-lg text-ddGold-500 font-medium mb-2 text-center text-3xl'>
+          Order
+        </h2>
+        <p className='leading-relaxed text-base'>
+          Fingerstache flexitarian street art 8-bit waist co, subway tile poke
+          farm.
+        </p>
       </div>
-    </section>
+    </div>
   );
 };
 
