@@ -4,7 +4,7 @@ import React from "react";
 const Contact = () => {
   return (
     <section>
-      <div className='container py-8 mx-auto lg:w-3/5 '>
+      <div className='container py-8 mx-auto  lg:w-3/5 '>
         <div className=' mx-auto'>
           <div className=' overflow-hidden  text-center'>
             <section className='relative'>
@@ -16,7 +16,7 @@ const Contact = () => {
                 >
                   <a
                     href='http://maps.google.com/maps?daddr=715%20Fern%20Creek%20Avenue%20Ste.%20B,%20Orlando,%20Florida%2032803,%20United%20States'
-                    className='font-yellowtail text-5xl text-white hover:text-yellow-300 transition duration-200 hover:scale-105 hover:rounded-lg lg:p-9 md:p-8 sm:p-7 sm:ml-5 '
+                    className='font-yellowtail text-5xl text-white hover:text-yellow-300 transition duration-200 hover:scale-105 hover:rounded-lg lg:p-9 md:p-8 sm:p-7 sm:ml-0 '
                   >
                     <span className='drop-shadow-md'>{"Get Directions! "}</span>
                   </a>

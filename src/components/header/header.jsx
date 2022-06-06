@@ -9,7 +9,7 @@ const Header = () => {
           <div className='rounded-lg overflow-hidden align-top'>
             <img
               alt='Deli Desires Header image with wolf'
-              className='xl:h-80 lg:h-72 md:h-full w-full'
+              className='md:h-full md:w-full'
               src={dd_header}
             />
           </div>
