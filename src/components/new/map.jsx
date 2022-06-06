@@ -1,6 +1,6 @@
 import React from "react";
 
-const Map = () => {
+const Map = ({ title }) => {
   return (
     <div>
       <div className='content-center mb-2 text-center'>
@@ -12,7 +12,7 @@ const Map = () => {
             href='http://maps.google.com/maps?daddr=715%20Fern%20Creek%20Avenue%20Ste.%20B,%20Orlando,%20Florida%2032803,%20United%20States'
             className='font-yellowtail text-3xl text-yellow-500 hover:text-yellow-400 transition duration-200 hover:scale-105 hover:rounded-lg lg:p-2 md:p-8 sm:p-7 sm:ml-0 w-fill'
           >
-            <span className='drop-shadow-sm'>{`Get Directions!`}</span>
+            <span className='drop-shadow-sm'>{`${title}`}</span>
           </a>
         </span>
         <p className='py-1 text-xs'>
