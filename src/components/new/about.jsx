@@ -1,11 +1,12 @@
 import React from "react";
 
 const aboutData = [
+  { title: "Bialys", description: "Made Fresh!" },
   { title: "Sandwiches", description: "Sensational!" },
-  { title: "Bialys", description: "Fresh!" },
-  { title: "Coffee", description: "Hot & Iced!" },
-  { title: "Sandwiches", description: "Sensational!" },
-  { title: "Sandwiches", description: "Sensational!" },
+  { title: "Coffee", description: "Hot and Iced!" },
+  { title: "Cream Cheeses", description: "Variety's the spice!" },
+  { title: "Specials", description: "Get em while they're hot!!" },
+  { title: "Deli Salads", description: "Classics!" },
 ];
 
 const About = ({ title }) => {
@@ -21,9 +22,14 @@ const About = ({ title }) => {
           </span>
         </span>
       </div>
-      <div className='relative grid-rows-5'>
+      <div className='relative grid-rows-5 border-2'>
         {aboutData.map((item, index) => (
-          <div className='grid grid-cols-5 md:grid-cols-3 text-sm' key={index}>
+          <div
+            className='grid grid-cols-5 md:grid-cols-3 text-sm even:bg-slate-50
+          odd:border-y-2 first:border-t-2
+            border-gray-200 odd:bg-blue-100'
+            key={index}
+          >
             <div className='text-right sm:text-center'>{item.title}</div>
             <div
               className='col-span-3 md:col-span-1 align-bottom 
