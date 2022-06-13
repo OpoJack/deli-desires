@@ -5,7 +5,7 @@ const aboutData = [
   { title: "Sandwiches", description: "Sensational!" },
   { title: "Coffee", description: "Hot and Iced!" },
   { title: "Cream Cheeses", description: "Variety's the spice!" },
-  { title: "Specials", description: "Get em while they're hot!!" },
+  { title: "Specials", description: "Limited Time!" },
   { title: "Deli Salads", description: "Classics!" },
 ];
 
@@ -26,7 +26,7 @@ const About = ({ title }) => {
         {aboutData.map((item, index) => (
           <div
             className='grid grid-cols-5 md:grid-cols-3 text-sm even:bg-slate-50
-          odd:border-y-2 first:border-t-2
+          odd:border-y-2 first:border-t-2 justify-center items-center
             border-gray-200 odd:bg-blue-100'
             key={index}
           >
@@ -39,7 +39,9 @@ const About = ({ title }) => {
             >
               <div className='border-ddBlue-500 border-dotted border-b-2 h-1/2' />
             </div>
-            <div className='text-left'>{item.description}</div>
+            <div className='text-left justify-center items-center'>
+              {item.description}
+            </div>
           </div>
         ))}
       </div>
