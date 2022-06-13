@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/deli-desires/static/css/main.58901916.css",
-    "main.js": "/deli-desires/static/js/main.d60cd09c.js",
+    "main.css": "/deli-desires/static/css/main.a4285670.css",
+    "main.js": "/deli-desires/static/js/main.4108df9c.js",
     "static/js/787.6750dadc.chunk.js": "/deli-desires/static/js/787.6750dadc.chunk.js",
     "static/media/dd-menu2.png": "/deli-desires/static/media/dd-menu2.2dea94ec783a20db806f.png",
     "static/media/dd-menu.png": "/deli-desires/static/media/dd-menu.4b6da70dcd4a00f3bc42.png",
     "static/media/dd-order-online.png": "/deli-desires/static/media/dd-order-online.48cc887a177f08695ceb.png",
     "static/media/dd-header.png": "/deli-desires/static/media/dd-header.fe2b06ee6e7d565823b2.png",
     "index.html": "/deli-desires/index.html",
-    "main.58901916.css.map": "/deli-desires/static/css/main.58901916.css.map",
-    "main.d60cd09c.js.map": "/deli-desires/static/js/main.d60cd09c.js.map",
+    "main.a4285670.css.map": "/deli-desires/static/css/main.a4285670.css.map",
+    "main.4108df9c.js.map": "/deli-desires/static/js/main.4108df9c.js.map",
     "787.6750dadc.chunk.js.map": "/deli-desires/static/js/787.6750dadc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58901916.css",
-    "static/js/main.d60cd09c.js"
+    "static/css/main.a4285670.css",
+    "static/js/main.4108df9c.js"
   ]
 }
